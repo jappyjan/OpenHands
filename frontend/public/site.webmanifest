@@ -1,19 +1,62 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "OpenHands - AI Software Engineer",
+    "short_name": "OpenHands",
+    "description": "OpenHands: Code Less, Make More. An AI-powered software engineer that can help you build, debug, and deploy applications.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#0c0e10",
+    "background_color": "#0c0e10",
+    "categories": ["productivity", "developer", "utilities"],
+    "lang": "en",
+    "dir": "ltr",
     "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any"
+        },
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "shortcuts": [
+        {
+            "name": "New Conversation",
+            "short_name": "New Chat",
+            "description": "Start a new conversation with OpenHands",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "prefer_related_applications": false
 }
